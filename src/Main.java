@@ -14,12 +14,9 @@ public class Main {
         Rectangle myRectangle = new Rectangle(w, h);
 
         // 6. Gọi phương thức in kết quả ra màn hình
-        // Lệnh này đã bao gồm việc gọi getArea() và getPerimeter() bên trong nó
         myRectangle.printInfo();
 
-        // (Tùy chọn) Nếu bạn muốn gọi lẻ từng phương thức ngoài hàm main như yêu cầu cốt lõi:
-        // System.out.println("Diện tích gọi rời: " + myRectangle.getArea());
-        // System.out.println("Chu vi gọi rời: " + myRectangle.getPerimeter());
+
 
         scanner.close();
     }
